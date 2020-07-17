@@ -386,27 +386,6 @@ def monitor_traffic():
         RealTimeMonitor(client_ip = link["client_ip"], server_ip = link["server_ip"],
             link_name = link["link_name"], link_id = link["link_id"]).run()
 
-"""    ##RealTimeMonitor(client_ip = '172.16.24.137', server_ip = '172.16.24.138', link_name= 'essen-skss').run()
-    RealTimeMonitor(client_ip = '172.16.24.105', server_ip = '172.16.24.106', link_name= 'essen-sabiha1').run()
-    ##RealTimeMonitor(client_ip = '172.16.24.113', server_ip = '172.16.24.114', link_name= 'essen-sabiha2').run()
-    RealTimeMonitor(client_ip = '172.16.23.105', server_ip = '172.16.23.106', link_name= 'essen-kirantepe').run()
-    RealTimeMonitor(client_ip = '172.16.24.41', server_ip = '172.16.24.42', link_name= 'essen-bayraktepe').run()
-
-    RealTimeMonitor(client_ip = '172.16.23.81', server_ip = '172.16.23.82', link_name= 'merkez-mavidurak').run()
-    RealTimeMonitor(client_ip = '172.16.24.1', server_ip = '172.16.24.2', link_name= 'merkez-kirantepe').run()
-    RealTimeMonitor(client_ip = '172.16.23.73', server_ip = '172.16.23.74', link_name= 'merkez-adatepe').run()
-    RealTimeMonitor(client_ip = '172.16.23.9', server_ip = '172.16.23.10', link_name= 'merkez-hilmikayin').run()
-    RealTimeMonitor(client_ip = '172.16.23.1', server_ip = '172.16.23.2', link_name= 'merkez-sabiha').run()
-    RealTimeMonitor(client_ip = '172.16.23.17', server_ip = '172.16.23.18', link_name= 'merkez-muhtar').run()
-    RealTimeMonitor(client_ip = '172.16.23.25', server_ip = '172.16.23.26', link_name= 'merkez-caybasi').run()
-    RealTimeMonitor(client_ip = '172.16.23.41', server_ip = '172.16.23.42', link_name= 'merkez-serdivan').run()
-    RealTimeMonitor(client_ip = '172.16.23.49', server_ip = '172.16.23.50', link_name= 'merkez-unfabrikasi').run()
-    RealTimeMonitor(client_ip = '172.16.23.57', server_ip = '172.16.23.58', link_name= 'merkez-yildiztepe').run()
-    RealTimeMonitor(client_ip = '172.16.23.33', server_ip = '172.16.23.34', link_name= 'merkez-adatepe').run()
-    RealTimeMonitor(client_ip = '172.16.23.129', server_ip = '172.16.23.130', link_name= 'peksenler-sapanca').run()
-    RealTimeMonitor(client_ip = '172.16.23.97', server_ip = '172.16.23.98', link_name= 'peksenler-caybasi').run()
-    RealTimeMonitor(client_ip = '172.16.23.169', server_ip = '172.16.23.170', link_name= 'peksenler-arifiye2').run()
-"""
 
 @socketio.on('message')
 def print_message(message):
