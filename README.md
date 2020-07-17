@@ -1,6 +1,7 @@
 # NetworkAutomationPlatform
 Platform that manages network devices, collects data, executes commands and executes daily traffic tests
-Platform demo: 
+Platform demo:
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/u88NKXO2-Fs/1.jpg)](https://youtu.be/u88NKXO2-Fs?t=954)
 ## Overview
 The platform is a web application, composed of a backend rest and websocket API built using python and Flask and a frontend website.
